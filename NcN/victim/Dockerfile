@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-#Ejecutar: docker run -it victim
+#Ejecutar: docker run -it superubuntu/ubuntu:latest
 RUN apt-get update
 RUN apt-get -y install netcat
 
